@@ -1,0 +1,27 @@
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional motion effect */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Initial state */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    visibility: hidden;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  /* Visible state */
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+  

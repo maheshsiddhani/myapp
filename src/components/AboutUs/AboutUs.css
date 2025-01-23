@@ -1,0 +1,29 @@
+.about-us {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about-us p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about-us h2 {
+        font-size: 20px;
+    }
+
+    .about-us p {
+        font-size: 14px;
+    }
+}

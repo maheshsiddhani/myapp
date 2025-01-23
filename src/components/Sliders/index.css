@@ -1,0 +1,26 @@
+.sliders {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+.slider-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.slider-container{
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sliders {
+        max-width: 100%;
+    }
+}
