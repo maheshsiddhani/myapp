@@ -1,12 +1,16 @@
 import React from "react";
-import Header from "./Header";
+import Header from "./Header.js";
+import Sliders from './Slider.js'
+import './App.css'
+
 
 const App = () => {
     return(
         <div className="App">
-            <Header />
+            <header><Header /></header>
+            
             <main>
-
+                <Sliders />
             </main>
 
         </div>
